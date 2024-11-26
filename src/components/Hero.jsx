@@ -37,30 +37,11 @@ const Hero = () => {
           {/* end  here*/}
           {/* animation text */}
 
-          {/* <h1 className="py-2 text-2xl text-gredient">
-            {" "}
-            I am a passionate{" "}
-            <span className="bg-gradient-to-r text-white"> MERN stack </span>
-            developer and{" "}
-            <span className="bg-gradient-to-r text-white">
-              {" "}
-              Web3 enthusiast{" "}
-            </span>{" "}
-            .
-          </h1> */}
           <h1 className="py-3 md:text-xl text-gredient ">
             As a Web3 and MERN Stack developer, I specialize in building secure
             decentralized applications (dApps) with Solidity, Ethereum, and
             modern web technologies.
           </h1>
-
-          {/* <span className="py-2 text-2xl text-white bg-gradient-to-r hover:opacity-90"> */}
-          {/* <h1 className="py-2 text-2xl text-gredient">
-            <span className="text-gredient"> I am a passionate</span>{" "}
-            <span className="py-2 text-2xl text-white "> MERN stack </span>{" "}
-            <span className="text-gredient"> developer and </span>
-            <span className="py-2 text-2xl text-white ">Web3 enthusiast</span>.
-          </h1> */}
 
           {/* //////// */}
           {/* ////-----ICONS  */}
@@ -76,7 +57,9 @@ const Hero = () => {
               </Link>
               <Link
                 target="_blank"
-                to={"https://www.linkedin.com/in/rezaulkarim7080/"}
+                to={
+                  "https://www.linkedin.com/in/rezaul-karim-blockchain-developer/"
+                }
                 className="p-3 rounded-xl glass-effect"
               >
                 <FaLinkedin size={35} className="text-cyan-600  hover-btn" />
