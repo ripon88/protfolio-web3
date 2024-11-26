@@ -1,0 +1,74 @@
+section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scrollEffect,
+.scrollEffect-2 {
+  display: flex;
+  width: 200%;
+  animation: scroll 20s linear infinite;
+}
+
+.scrollEffect {
+  animation-delay: 0s; /* No delay needed for the first effect */
+}
+
+.scrollEffect-2 {
+  animation-direction: reverse; /* Reverse the direction of the second scroll */
+  animation-delay: -10s; /* Staggered start for the second effect */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border-radius: 50%; /* Makes the icon container circular */
+  background: rgba(255, 255, 255, 0.2); /* Light translucent background */
+  backdrop-filter: blur(10px); /* Adds a blur effect for a polished look */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon-container {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .icon-container {
+    margin: 0 5px;
+  }
+
+  .scrollEffect,
+  .scrollEffect-2 {
+    width: 300%;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Moves halfway to create a seamless loop */
+  }
+}
