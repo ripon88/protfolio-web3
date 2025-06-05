@@ -15,7 +15,7 @@ export const projects = [
         category: "Web3",
         image: Voting,
         links: {
-            code: "https://github.com/rezaulkarim7080/voting-Dapp",
+            //code: "https://github.com/rezaulkarim7080/voting-Dapp",
             live: "https://voting-dapp-theta-taupe.vercel.app/",
             video: "https://www.youtube.com/watch?v=Ny1IX7p9Pbo"
         }
@@ -27,7 +27,7 @@ export const projects = [
         category: "Web3",
         image: ArtChain,
         links: {
-            code: "https://github.com/rezaulkarim7080/ArtChain-NftMarketPlace",
+            //code: "https://github.com/rezaulkarim7080/ArtChain-NftMarketPlace",
             live: "https://art-chain-nft-market-place.vercel.app/",
             video: "https://www.youtube.com/watch?v=2PY26ZldooM&feature=youtu.be"
         }
