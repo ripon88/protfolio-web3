@@ -6,14 +6,15 @@ import Volcano from "../assets/Volcano.png";
 import ITSOLUTION from "../assets/ITSOLUTION.png";
 import ArtChain from "../assets/ArtChain.png";
 import Voting from "../assets/Voting.png";
+import ai from "../assets/ai.png";
 
 export const projects = [
       {
         id: 1,
         title: " OrionAI ",
         description: " AI-powered personal assistant web app that helps with brainstorming, idea generation, and even lets you export your chats as PDFs so you can keep track of everything.",
-        category: "Web3",
-        image: Voting,
+        category: "web3 , AI ",
+        image: ai,
         links: {
             //code: "https://github.com/rezaulkarim7080/voting-Dapp",
             live: "https://orionai-rezaul-karim.netlify.app/",
