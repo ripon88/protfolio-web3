@@ -21,7 +21,7 @@ export const projects = [
         }
     },
     {
-        id: 1,
+        id: 2,
         title: " Decentralized Voting application",
         description: "Client: React, Vite, Tailwind CSS, daisyUI | Server: Ethereum (Sepolia Testnet), IPFS, Node.js, ethers.js",
         category: "Web3",
@@ -33,7 +33,7 @@ export const projects = [
         }
     },
     {
-        id: 2,
+        id: 3,
         title: "ArtChain NFT Marketplace",
         description: "Client: React, Vite, Tailwind CSS, daisyUI | Server: Ethereum (Sepolia Testnet), IPFS, Node.js, ethers.js",
         category: "Web3",
@@ -45,7 +45,7 @@ export const projects = [
         }
     },
     {
-        id: 3,
+        id: 4,
         title: "Techmart : Tech Sale Product",
         description: "Client: HTML5, React.js, Git, JavaScript, TailwindCSS | Server: MongoDB, Node, Express.js",
         category: "ReactJS",
@@ -57,7 +57,7 @@ export const projects = [
         }
     },
     {
-        id: 4,
+        id: 5,
         title: "Oasis Dental : Dental Service Review ",
         description: "Client: HTML5, React.js, Git, JavaScript, TailwindCSS, Firebase, DaisyUI | Server: MongoDB, Node, Express.js",
         category: "ReactJS",
@@ -69,7 +69,7 @@ export const projects = [
         }
     },
     {
-        id: 5,
+        id: 6,
         title: "Learnify : Online Education Platform",
         description: "Client: HTML5, React.js, Git, JavaScript, TailwindCSS, DaisyUI, Firebase | Server: MongoDB, Node, Express.js",
         category: "ReactJS",
@@ -81,7 +81,7 @@ export const projects = [
         }
     },
     {
-        id: 6,
+        id: 7,
         title: "Volcano : Online Steaming Service",
         description: "Client: Next.js, Firebase, TailwindCSS, DaisyUI | Server: MongoDB, Node, Express.js",
         category: "NextJS",
@@ -93,7 +93,7 @@ export const projects = [
         }
     },
     {
-        id: 7,
+        id: 8,
         title: "It Solution",
         description: "HTML5, CSS, Git, JavaScript",
         category: "HTML/CSS/JS",
