@@ -11,7 +11,7 @@ import ai from "../assets/ai.png";
 export const projects = [
       {
         id: 1,
-        title: " OrionAI ",
+        title: " OrionAI Prompt Assistant ",
         description: " AI-powered personal assistant web app that helps with brainstorming, idea generation, and even lets you export your chats as PDFs so you can keep track of everything.",
         category: "web3 , AI ",
         image: ai,
