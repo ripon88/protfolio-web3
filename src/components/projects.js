@@ -8,6 +8,18 @@ import ArtChain from "../assets/ArtChain.png";
 import Voting from "../assets/Voting.png";
 
 export const projects = [
+      {
+        id: 1,
+        title: " OrionAI ",
+        description: " AI-powered personal assistant web app that helps with brainstorming, idea generation, and even lets you export your chats as PDFs so you can keep track of everything.",
+        category: "Web3",
+        image: Voting,
+        links: {
+            //code: "https://github.com/rezaulkarim7080/voting-Dapp",
+            live: "https://orionai-rezaul-karim.netlify.app/",
+            video: "https://www.youtube.com/watch?v=4xMwK0Acy08"
+        }
+    },
     {
         id: 1,
         title: " Decentralized Voting application",
