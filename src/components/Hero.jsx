@@ -25,8 +25,8 @@ const Hero = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "A Solidity Ethereum Developer",
-                    "A MERN Stack developer",
+                    "Founder & Full-stack Developer at Formailo (SaaS) | Freelance Graphic Designer ",
+                    "Applied ML Researcher",
                   ],
                   autoStart: true,
                   loop: true,
@@ -38,8 +38,8 @@ const Hero = () => {
           {/* animation text */}
 
           <h1 className="py-3 md:text-xl text-gredient ">
-            As a Web3 and MERN Stack developer, I specialize in building secure
-            decentralized applications (dApps) with Solidity, Ethereum, and
+            As a Founder & Full-stack Developer at Formailo (SaaS), I specialize in building secure
+            decentralized applications with
             modern web technologies.
           </h1>
 
